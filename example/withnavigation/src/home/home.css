@@ -12,7 +12,7 @@
 
 Header {
     width: 100%;
-    border-width: 2px;
+    border-width: 4px;
     font-size: 30px;
     background-color: red;
 }
