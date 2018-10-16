@@ -9,7 +9,7 @@
 
 [react-native]() + css, cool!
 
-![效果演示](./static/wcd.gif)
+![效果演示](https://raw.githubusercontent.com/areslabs/react-native-withcss/master/static/wcd.gif)
 
 ## Features
 * support css

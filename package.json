@@ -1,6 +1,6 @@
 {
   "name": "@areslabs/react-native-withcss",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "react native + css, cool!",
   "main": "./src/index.js",
   "scripts": {
