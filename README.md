@@ -1,8 +1,9 @@
-[![npm Version](https://img.shields.io/npm/v/react-native-withcss.svg)](https://www.npmjs.com/package/react-native-withcss)
-[![npm License](https://img.shields.io/npm/l/react-native-withcss.svg)](https://www.npmjs.com/package/react-native-withcss)
+[![npm Version](https://img.shields.io/npm/v/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
+[![npm Downloads](https://img.shields.io/npm/dt/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
+[![npm License](https://img.shields.io/npm/l/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
 
 
-# react-native-withcss
+# @areslabs/react-native-withcss
 
 [中文](./README.zh.md)
 
@@ -19,22 +20,22 @@
 * shorthand for attributes
 
 ## Installation
-#### 1. install `babel-plugin-import-css`
+#### 1. install `@areslabs/babel-plugin-import-css`
 Since React Native can't load css, you need to use a babel plugin
 ```
-npm install babel-plugin-import-css --save-dev
+npm install @areslabs/babel-plugin-import-css --save-dev
 ```
 Add this to the `.babelrc` file
 ```
 {
-  "plugins": ["babel-plugin-import-css"],
+  "plugins": ["@areslabs/babel-plugin-import-css"],
   ...
 }
 ```
 
-#### 2. install `react-native-withcss`
+#### 2. install `@areslabs/react-native-withcss`
 ```
-npm install react-native-withcss --save
+npm install @areslabs/react-native-withcss --save
 ```
 
 #### 3. Add command cssWatch
@@ -56,7 +57,7 @@ Take a demo project as an example:
 App.js
 ```javascript
 import React from 'react'
-import { StylesProvider, Text, View } from 'react-native-withcss'
+import { StylesProvider, Text, View } from '@areslabs/react-native-withcss'
 
 import AppStyles from './App.css'
 
@@ -87,7 +88,7 @@ Text {
     line-height: 50px;
 }
 ```
-Note that the components that use RN now need `import { Text, View } from 'react-native-withcss'`
+Note that the components that use RN now need `import { Text, View } from '@areslabs/react-native-withcss'`
 
 ## Live Reload / Hot Reload
 React Native itself provides the functionality of Live Reload / Hot Reload. 
@@ -181,12 +182,12 @@ XXX {
 
 In addition, react-native-withcss provides a set of basic components that correspond to React Native. By default, ClassEnable function is enabled, so when using basic components, it is recommended:
 ```javascript
-Import {View, Text ...} from 'react-native-withcss'
+Import {View, Text ...} from '@areslabs/react-native-withcss'
 ```
 Or you may need to use it all components
 ```javascript
 import {View, Text} from 'react-native'
-import {View as CSSView , Text as CSSText...} from 'react-native-withcss'
+import {View as CSSView , Text as CSSText...} from '@areslabs/react-native-withcss'
 ```
 ## attribute shorthand
 such as

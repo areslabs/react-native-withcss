@@ -1,14 +1,15 @@
-﻿[![npm Version](https://img.shields.io/npm/v/react-native-withcss.svg)](https://www.npmjs.com/package/react-native-withcss)
-[![npm License](https://img.shields.io/npm/l/react-native-withcss.svg)](https://www.npmjs.com/package/react-native-withcss)
+﻿[![npm Version](https://img.shields.io/npm/v/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
+[![npm Downloads](https://img.shields.io/npm/dt/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
+[![npm License](https://img.shields.io/npm/l/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
 
 
-# react-native-withcss
+# @areslabs/react-native-withcss
 
 [English doc](./README.md)
 
 [react-native]() + css, cool!
 
-![效果演示](./static/wcd.gif)
+![效果演示](./static/cd.gif)
 
 ## Features
 * 支持css文件
@@ -21,22 +22,22 @@
 需要提醒的是 react-native-withcss并没有实现css的任何属性 如果RN对css的某个属性没有支持，比如(display: block), 那么react-native-withcss也不会支持
 
 ## Installation
-#### 1. 安装`babel-plugin-import-css`
+#### 1. 安装`@areslabs/babel-plugin-import-css`
 由于React Native无法加载css, 先要使用一个babel plugin
 ```
-npm install babel-plugin-import-css --save-dev
+npm install @areslabs/babel-plugin-import-css --save-dev
 ```
 添加这个到 `.babelrc` 文件
 ```
 {
-  "plugins": ["babel-plugin-import-css"],
+  "plugins": ["@areslabs/babel-plugin-import-css"],
   ...
 }
 ```
 
-#### 2. 安装`react-native-withcss`
+#### 2. 安装`@areslabs/react-native-withcss`
 ```
-npm install react-native-withcss --save
+npm install @areslabs/react-native-withcss --save
 ```
 
 #### 3. 添加命令cssWatch
@@ -58,7 +59,7 @@ npm install react-native-withcss --save
 App.js
 ```javascript
 import React from 'react'
-import { StylesProvider, Text, View } from 'react-native-withcss'
+import { StylesProvider, Text, View } from '@areslabs/react-native-withcss'
 
 import AppStyles from './App.css'
 
@@ -89,7 +90,7 @@ Text {
     line-height: 50px;
 }
 ```
-需要注意的是 现在使用RN的组件需要`import { Text, View } from 'react-native-withcss'`
+需要注意的是 现在使用RN的组件需要`import { Text, View } from '@areslabs/react-native-withcss'`
 
 ## Live Reload / Hot Reload
 React Native 自己提供了Live Reload / Hot Reload的功能。 如果想让.css文件具备Live Reload / Hot Reload，请务必在执行
@@ -181,12 +182,12 @@ XXX {
 
 另外， react-native-withcss 提供了一套与React Native官方对应的基本组件，默认开启ClassEnable， 所以在使用基本组件的时候推荐：
 ```javascript
-import {View, Text ...} from 'react-native-withcss'
+import {View, Text ...} from '@areslabs/react-native-withcss'
 ```
 或者当都需要使用的时候
 ```javascript
 import {View, Text} from 'react-native'
-import {View as CSSView , Text as CSSText...} from 'react-native-withcss'
+import {View as CSSView , Text as CSSText...} from '@areslabs/react-native-withcss'
 ```
 
 ## 属性简写

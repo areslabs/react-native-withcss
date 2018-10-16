@@ -1,6 +1,6 @@
 {
   "name": "@areslabs/react-native-withcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react native + css, cool!",
   "main": "./src/index.js",
   "scripts": {
@@ -12,6 +12,12 @@
     "native",
     "css"
   ],
+  "homepage": "https://github.com/areslabs/react-native-withcss",
+  "bugs": "https://github.com/areslabs/react-native-withcss/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areslabs/react-native-withcss"
+  },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1",
     "hoist-non-react-statics": "^3.0.0-rc.1"
