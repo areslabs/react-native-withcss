@@ -1,0 +1,14 @@
+View {
+    height: 40px;
+    border-width: 1px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: gray;
+}
+
+
+Text {
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "rncsstest",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@areslabs/babel-plugin-import-css": "^1.0.5",
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "cssWatch": "cssWatch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "hoist-non-react-statics": "^3.0.0-rc.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "@areslabs/react-native-withcss": "^1.0.0",
+    "react-navigation": "^2.7.0"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "TodoList",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "cssWatch": "cssWatch"
+  },
+  "dependencies": {
+    "react": "16.5.0",
+    "react-native": "0.57.2",
+    "@areslabs/react-native-withcss": "^1.0.0",
+    "react-navigation": "^2.17.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@areslabs/babel-plugin-import-css": "^1.0.0",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.0",
+    "react-test-renderer": "16.5.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

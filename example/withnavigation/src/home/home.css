@@ -1,0 +1,18 @@
+.cool {
+    color: black;
+}
+
+.cool Text {
+    height: 60px;
+}
+
+.cool .st {
+    color: red
+}
+
+Header {
+    width: 100%;
+    border-width: 2px;
+    font-size: 30px;
+    background-color: red;
+}

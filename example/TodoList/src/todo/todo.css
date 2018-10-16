@@ -1,0 +1,29 @@
+@import "../common/common.css";
+
+.item {
+    flex-direction: row;
+    height: 64px;
+    margin: 5px;
+    background: #fafafa;
+    text-align: left;
+    transform: rotate(30deg) rotateX(20deg) translateX(10px);
+}
+
+.item Image {
+    width: 54px;
+    height: 54px;
+    margin-top: 5px;
+}
+
+.item .info {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 5px;
+    flex: 1
+}
+
+.item .info .data {
+    text-align: right;
+    color: #555555;
+    font-size: 13px;
+}

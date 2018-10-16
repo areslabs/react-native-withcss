@@ -1,0 +1,60 @@
+.infoPic {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin: 10px 0;
+}
+
+.des1 {
+    font-size: 30px;
+    line-height: 40px;
+    color: #f00000;
+    text-align: center;
+}
+
+.des2 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #00f000;
+    text-align: right;
+}
+
+.des3 {
+    font-size: 16px;
+    color: #0000f0;
+    text-align: left;
+}
+
+.aclz {
+    font-size: 40px;
+    height: 200px;
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+}
+
+.bclz {
+    font-size: 20px;
+    height: 300px;
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+}
+
+.cclz {
+    color: red;
+    font-size: 20px;
+    height: 300px;
+    width: 200px;
+    align-self: center;
+    justify-content: center;
+}
+
+.dclz {
+    color: blueviolet;
+    font-size: 20px;
+    height: 300px;
+    width: 200px;
+    align-self: center;
+    justify-content: flex-end;
+}

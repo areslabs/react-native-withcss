@@ -1,0 +1,8 @@
+.out {
+    height: 100%;
+
+    font-weight: 700;
+    transform: translateX(20px) rotateZ(45deg);
+    background-color: rgba(200, 200, 200, 1);
+}
+

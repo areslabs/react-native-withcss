@@ -1,0 +1,51 @@
+@import "../common/common.css";
+
+.bigtitle {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section1 {
+    margin: 20px 10px 0 10px
+}
+
+.section2 {
+    margin: 20px 10px 0 10px
+}
+
+.section3 {
+    margin: 20px 10px 0 10px
+}
+
+.title {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.section1 ContentText {
+    line-height: 20px;
+    font-size: 14px;
+    color: #990000;
+    text-align: left;
+    margin-top: 10px;
+}
+
+
+.section2 ContentText {
+    line-height: 20px;
+    font-size: 14px;
+    color: #009900;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.section3 ContentText {
+    line-height: 20px;
+    font-size: 14px;
+    color: #000099;
+    text-align: left;
+    margin-top: 10px;
+}

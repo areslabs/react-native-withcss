@@ -1,0 +1,31 @@
+{
+  "name": "@areslabs/react-native-withcss",
+  "version": "1.0.0",
+  "description": "react native + css, cool!",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "jest --config=jest.config.js",
+    "eslint": "eslint ./src --ext .js"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "css"
+  ],
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "hoist-non-react-statics": "^3.0.0-rc.1"
+  },
+  "author": "",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.19.1",
+    "eslint-config-react-app": "^3.0.3",
+    "eslint-plugin-flowtype": "^2.50.3",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0"
+  }
+}
