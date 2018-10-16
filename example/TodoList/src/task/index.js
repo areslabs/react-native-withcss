@@ -1,5 +1,5 @@
 import React from 'react'
-import {StylesProvider, Image, View, Text} from 'react-native-withcss'
+import {StylesProvider, Image, View, Text} from '@areslabs/react-native-withcss'
 
 import taskCss from './task.css'
 

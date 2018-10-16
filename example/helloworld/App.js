@@ -1,5 +1,5 @@
 import React from 'react';
-import { StylesProvider, Text, View } from 'react-native-withcss';
+import { StylesProvider, Text, View } from '@areslabs/react-native-withcss';
 
 import AppStyles from './App.css'
 

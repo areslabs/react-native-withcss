@@ -1,5 +1,5 @@
 import React from 'react'
-import {StylesProvider, View, Text, ScrollView} from 'react-native-withcss'
+import {StylesProvider, View, Text, ScrollView} from '@areslabs/react-native-withcss'
 
 import ContentText from './ContentText'
 

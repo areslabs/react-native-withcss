@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import {StylesProvider} from 'react-native-withcss'
+import {StylesProvider} from '@areslabs/react-native-withcss'
 import appCss from './app.css'
 import Hw from './src/Hw2'
 

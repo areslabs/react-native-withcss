@@ -1,5 +1,5 @@
 import React from 'react'
-import {Button} from 'react-native-withcss'
+import {Button} from '@areslabs/react-native-withcss'
 import { withNavigation } from 'react-navigation'
 
 class NaviButton extends React.Component {

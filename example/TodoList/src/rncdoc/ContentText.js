@@ -1,6 +1,6 @@
 import React from 'react'
 import {Text} from 'react-native'
-import {ClassEnable} from 'react-native-withcss'
+import {ClassEnable} from '@areslabs/react-native-withcss'
 
 @ClassEnable
 export default class ContentText extends React.Component {

@@ -8,9 +8,9 @@
     "cssWatch": "cssWatch"
   },
   "dependencies": {
+    "@areslabs/react-native-withcss": "^1.0.3",
     "react": "16.5.0",
     "react-native": "0.57.2",
-    "@areslabs/react-native-withcss": "^1.0.0",
     "react-navigation": "^2.17.0"
   },
   "devDependencies": {

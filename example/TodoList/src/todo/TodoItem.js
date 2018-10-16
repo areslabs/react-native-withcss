@@ -1,6 +1,6 @@
 import React from 'react'
 import {TouchableOpacity} from 'react-native'
-import { View, Image, Text } from 'react-native-withcss'
+import { View, Image, Text } from '@areslabs/react-native-withcss'
 import {withNavigation} from 'react-navigation'
 
 class TodoItem extends React.Component {

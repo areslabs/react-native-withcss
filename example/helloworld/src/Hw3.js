@@ -1,5 +1,5 @@
 import React from 'react'
-import {ClassEnable} from 'react-native-withcss'
+import {ClassEnable} from '@areslabs/react-native-withcss'
 import {Text, View,ScrollView, StyleSheet} from 'react-native'
 
 export default class Hw extends React.Component{

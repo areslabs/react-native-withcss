@@ -1,6 +1,6 @@
 import React from 'react'
 import {View} from 'react-native'
-import {ClassEnable, Text, View as CSSView,FlatList} from 'react-native-withcss'
+import {ClassEnable, Text, View as CSSView,FlatList} from '@areslabs/react-native-withcss'
 
 @ClassEnable
 export default class Hw extends React.Component{

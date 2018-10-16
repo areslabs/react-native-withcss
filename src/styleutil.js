@@ -189,7 +189,7 @@ function queryMap(path, styleMap = {}) {
  * @param styles map structure
  * @returns self's style
  */
-export function getStyle(path, styles) {
+export function getStyle(path, rawStyles, styles) {
     path = path.filter(e => !!e)
     const result = queryMap(path, styles);
     return flattenArray(result);

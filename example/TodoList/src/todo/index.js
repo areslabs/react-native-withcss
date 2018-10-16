@@ -1,6 +1,6 @@
 import React from 'react'
 import { FlatList } from 'react-native'
-import {View, Text, StylesProvider} from 'react-native-withcss'
+import {View, Text, StylesProvider, ClassEnable} from '@areslabs/react-native-withcss'
 
 import TodoItem from './TodoItem'
 
@@ -56,6 +56,8 @@ export default class Todo extends React.Component {
     }
 
     render() {
+        console.log('why?', StylesProvider, todoCss, View, ClassEnable)
+
         return (
             <View className="container">
                 <View>

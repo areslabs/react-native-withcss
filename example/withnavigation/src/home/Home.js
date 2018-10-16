@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, StylesProvider} from 'react-native-withcss'
+import {View, Text, StylesProvider} from '@areslabs/react-native-withcss'
 import NaviButton from './NaviButton'
 import Header from '../header/Header'
 

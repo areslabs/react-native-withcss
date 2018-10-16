@@ -1,5 +1,5 @@
 import React from 'react'
-import {View, Text, StylesProvider } from 'react-native-withcss'
+import {View, Text, StylesProvider } from '@areslabs/react-native-withcss'
 import JustHelloStyles from './JustHello.css'
 
 function JustHello() {
