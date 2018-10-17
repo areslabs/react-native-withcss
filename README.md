@@ -3,7 +3,7 @@
 [![npm License](https://img.shields.io/npm/l/@areslabs/react-native-withcss.svg)](https://www.npmjs.com/package/@areslabs/react-native-withcss)
 
 
-# @areslabs/react-native-withcss
+# react-native-withcss
 
 [中文](./README.zh.md)
 
